@@ -49,19 +49,25 @@ nav {
   line-height: 21px;
 }
 
-.etichetta-rossa {
-  background-color: red;
+.etichette {
   position: absolute;
   bottom: 50px;
+}
+
+.etichetta-rossa {
+  background-color: red;
   padding: 5px 10px;
+  width: 63px;
+  float: left;
+  margin-right: 4px;
 }
 
 .etichetta-verde {
   background-color: green;
-  position: absolute;
-  bottom: 50px;
-  left: 60px;
   padding: 5px 10px;
+  width: 109px;
+  float: left;
+  display: block;
 }
 
 .cuore {
