@@ -126,7 +126,7 @@ nav {
 
 /* FOOTER */
 footer {
-  background-color: rgb(58, 58, 58);
+  background-color: #1a1a1a;
   margin-top: 50px;
   padding: 20px 0px;
 }
@@ -143,8 +143,32 @@ footer {
   margin-right: 10px;
 }
 
-footer i {
+.barraFooter p,
+li {
   color: #fff;
+}
+
+.barraFooter i {
+  color: #fff;
+}
+
+footer li {
+  font-size: 11px;
+}
+
+footer p {
+  font-size: 11px;
+}
+.social p {
+  padding-bottom: 5px;
+}
+
+.social i {
+  cursor: pointer;
+}
+
+.privacy li {
+  cursor: pointer;
 }
 
 /* DEBUG */
