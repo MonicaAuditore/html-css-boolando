@@ -124,6 +124,25 @@ nav {
   font-weight: 700;
 }
 
+/* ANIMAZIONE CARD */
+
+/* .foto .foto-back {
+  display: none;
+} */
+
+.foto-back {
+  position: relative;
+}
+
+.foto-front {
+  position: absolute;
+  left: 0;
+}
+
+.foto-front:hover {
+  opacity: 0;
+}
+
 /* FOOTER */
 footer {
   background-color: #1a1a1a;
