@@ -13,6 +13,7 @@ nav {
   position: fixed;
   width: 100%;
   z-index: 1;
+  padding: 10px 0px;
 }
 
 .mainContainer {
@@ -34,6 +35,28 @@ nav {
 .logo img {
   width: 200px;
 }
+
+.genere a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.genere a:not(:last-child) {
+  padding-right: 7px;
+}
+
+.genere a {
+  font-size: 13px;
+}
+
+.icone-user a {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* .icone-user a i:not(:last-child) {
+  padding-right: 6px;
+} */
 
 .sezioneFoto {
   display: flex;
@@ -57,17 +80,19 @@ nav {
 .etichetta-rossa {
   background-color: red;
   padding: 5px 10px;
-  width: 63px;
   float: left;
   margin-right: 4px;
+  color: white;
+  font-weight: 700;
 }
 
 .etichetta-verde {
   background-color: green;
   padding: 5px 10px;
-  width: 109px;
   float: left;
   display: block;
+  color: white;
+  font-weight: 700;
 }
 
 .cuore {
@@ -90,6 +115,15 @@ nav {
   width: 440px;
 }
 
+.titolo {
+  font-weight: bold;
+}
+
+.prezzo-acquisto {
+  color: red;
+  font-weight: 700;
+}
+
 /* FOOTER */
 footer {
   background-color: rgb(58, 58, 58);
@@ -107,6 +141,10 @@ footer {
 
 .privacy ul li:not(:last-child) {
   margin-right: 10px;
+}
+
+footer i {
+  color: #fff;
 }
 
 /* DEBUG */
