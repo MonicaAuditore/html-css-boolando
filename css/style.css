@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-  background-color: darkorange;
+  background-color: #ff6900;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -78,6 +78,25 @@ nav {
 
 .immagine {
   position: relative;
+}
+
+/* FOOTER */
+footer {
+  background-color: rgb(58, 58, 58);
+  margin-top: 50px;
+  padding: 20px 0px;
+}
+
+.privacy ul {
+  list-style: none;
+}
+
+.privacy ul li {
+  display: inline-block;
+}
+
+.privacy ul li:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* DEBUG */
