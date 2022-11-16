@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: darkorange;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.mainContainer {
+  max-width: 1362px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.BarraNav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.sezioneFoto {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between;
+  align-items: center; */
+  margin-top: 120px;
+}
+
+.descrizione {
+  display: flex;
+  flex-direction: column;
+  line-height: 21px;
+}
+
+.etichetta-rossa {
+  background-color: red;
+  position: absolute;
+  bottom: 50px;
+  padding: 5px 10px;
+}
+
+.etichetta-verde {
+  background-color: green;
+  position: absolute;
+  bottom: 50px;
+  left: 60px;
+  padding: 5px 10px;
+}
+
+.cuore {
+  background-color: #fff;
+  padding: 16px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.fa-solid.fa-heart {
+  font-size: 22px;
+}
+
+.immagine {
+  position: relative;
+}
+
+/* DEBUG */
+
+.debug .mainContainer {
+  /* background-color: aquamarine; */
+}
+
+.debug .immagine {
+  width: 439px;
+  height: 609px;
+  background-color: brown;
+}
