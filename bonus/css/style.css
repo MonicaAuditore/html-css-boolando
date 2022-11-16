@@ -1,3 +1,5 @@
+/* BONUS */
+
 * {
   padding: 0;
   margin: 0;
@@ -97,6 +99,18 @@ nav {
   top: 10px;
 }
 
+.cuore a {
+  color: #1a1a1a;
+}
+
+.cuore a:hover {
+  color: red;
+}
+
+.cuore i:active {
+  transform: translateY(2px);
+}
+
 .fa-solid.fa-heart {
   font-size: 22px;
 }
@@ -132,6 +146,8 @@ nav {
 .foto-front:hover {
   opacity: 0;
 }
+
+/* ANIMAZIONE CUORE */
 
 /* FOOTER */
 footer {
